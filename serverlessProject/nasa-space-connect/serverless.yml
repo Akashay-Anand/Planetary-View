@@ -1,0 +1,22 @@
+service: nasa-space-connect
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+ 
+functions:
+  function1:
+    handler: index.handler
+    events:
+      - schedule: 
+          rate: rate(25 minutes)
+    environment:
+      API_KEY: "<Your API KEY here>"
+      Twilio_Account_SID: zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+      Twilio_Auth_Token: zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+      Twilio_Phone_Number: +12200000000
+      Personal_Nomber: +919000000000
+    
+
+
