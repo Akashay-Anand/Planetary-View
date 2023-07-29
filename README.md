@@ -6,15 +6,31 @@
 //For any query you can contact me at akashayanand1@gmail.com
 
 
-# SERVERLESS PROJECT
+# SERVERLESS PROJECT 🥷
 
 *Tech Stacks: NodeJS(axios, twilio) ,Serverless framework, AWS(Lambda, IAM, etc.), NASA API*
 
-### Overview
+<br/>
+
+### Let's First understand What is serverless⁉️
+> Cloud computing model that enables developers to build and run application code without worrying about the underlying infrastructure.
+> **We pay for the computing time we consumed.**
+ 
+<br/>
+
+> Many cloud providers provide services to implement this paradigm. such as AWS Lambda, Azure Functions, and Google Cloud Functions.
+<br/>
+
+**Why I used aws instead of other cloud providers?!**
+> 
+> as I have AWS free tier account. I have used it in some of my other projects. I am familiar with the AWS interface and its terminology. thats why I am going with it.  
+> second reason is: the aws lambda can uphold 1 million requests and 3.2 million compute seconds per month in the free tier.  
+
+## Overview 🤖
 > Created a serverless project with NodeJS runtime which fetches the apod image and metadata regarding the same from NASA API. Then format that data and transfer it to my phone number using the Twilio library.  
 > To automate this process I deployed it on AWS Lambda service which runs our function on certain events(for this it is 25 minute time period).  
 
-### Initialization 
+## Initialization 🧑🏻‍💻
 
 * create a project folder
   * initialize serverless in it ( guide: https://www.serverless.com/framework/docs/getting-started )
