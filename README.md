@@ -88,6 +88,47 @@
 > +------------- Minute (0 - 59)
 > ```
 
+<br/>
+<br/>
 
+### Index.js
+> Let's understand the code here 🧑🏻‍💻🥷
 
+``` javascript
+// import required modules
+const axios = require('axios');
+const twilio = require('twilio');
+
+// create handler function // note name should be same as you of YAML file
+module.exports.handler = async (event) => { }
+//Now the rest code will be inside the handler function
+
+// first understand what is async and await
+//In old age, JS is single-threaded, which means it executes one line of code at a time. (synchronous) (not prefered )(delay increased)
+// With modern ECMAScript updates javascript started performing asynchronously means it doesn't wait for a code to get executed.
+// So if it is taking time its starts executing the next one parallelly.
+
+// and to balance this feature we use async/await. 
+// JavaScript is non-blocking code > that doesn't wait for code to get executed and started executing the next line of code... may cause errors and delay
+
+// Axios -> HTTP request -> returns promise -> of response object -> contains data, headers, status, config, etc.
+const fetchdata = await axios.get(url);
+// extracting specific properties from the response object
+const getdata = fetchdata.data;
+
+// then created a message body and initiated for sending sms with Twilio
+```
+
+<br/>
+<br/>
+
+## After that I deployed this project
+> Need to be logged in with AWS in terminal   
+> **[Note]** IAM user should have all proper policies attached to it, otherwise, you will get lots of errors. 😑  
+> To deploy use the command 'sls deploy'    
+
+<br/>
+
+# Finally function is deployed on lambda we can monitor it there... 👩🏻‍🚀👩🏻‍🚀🌐
+# End || good-day
 
