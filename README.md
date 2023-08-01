@@ -12,6 +12,13 @@
 
 <br/>
 
+## 📺📸 Video of me explaining the entire project. 👇🏻👇🏻  
+
+[![project video](https://img.youtube.com/vi/_GXGRl76D00/0.jpg)](https://www.youtube.com/watch?v=_GXGRl76D00)
+
+
+<br/>
+
 ### Let's First understand What is serverless⁉️
 > Cloud computing model that enables developers to build and run application code without worrying about the underlying infrastructure.
 > **We pay for the computing time we consumed.**
