@@ -1,6 +1,11 @@
 const axios = require('axios');
 const twilio = require('twilio');
 
+//////////////////////////////// firebase integration
+const admin = require("firebase-admin");
+const firebaseAccount = require('path/to/secureAccountkey.json');
+////////////////////////////////
+
 module.exports.handler = async (event) => {
   const { 
     API_KEY,  
@@ -22,11 +27,30 @@ module.exports.handler = async (event) => {
   ${getdata.explanation}
    `;
 
-  const client = twilio(Twilio_Account_SID, Twilio_Auth_Token)
-  await client.messages.create({
-    body,
-    mediaUrl: [getdata.url],
-    from: Twilio_Phone_Number,
-    to: Personal_Nomber,
+   // integrating firebase
+
+  admin.initializeApp({
+    credential: admin.credential.cert(firebaseAccount),
+  });
+  
+  // generate FCM token for my numbers
+  
+  admin.auth().createCustomToken(phoneNumber)
+  .then((customToken) => {
+    console.log('FCM token for phone number:', customToken);
   })
+  .catch((error) => {
+    console.error('Error generating FCM token:', error);
+  });
+
+
+  //// Old messaging tech stuff ////////////////////////////////////
+  //// deprecated
+  // const client = twilio(Twilio_Account_SID, Twilio_Auth_Token)
+  // await client.messages.create({
+  //   body,
+  //   mediaUrl: [getdata.url],
+  //   from: Twilio_Phone_Number,
+  //   to: Personal_Nomber,
+  // })
 };

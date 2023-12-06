@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "serverless-sms-integration",
+    "private_key_id": "ca11ef8105f93264faaa2c7af686af820191bf11",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCuiytHVZRdJq9v\nZf1I8UhEypJeY9pvDVqFO0iU4dOKwP4Mj25s16+VQwyMyyjL0Y3AbKNGVAkrpOaU\nY/FdhlYKt2D88oblc2pNT1di/P6RqXWcT4eJGW/dge+trzd9DTS2uHxncmu+7pQv\nx+uadu8beXnmOHaxJP04TefaGPTw8GqVNDWxXBCs+uJplaBenabFmzQa3D6LxLqu\ns5bUUZlGKj5lUz/y0jHzr9n0x364deygaIDc9iAmricJNtT9Jl9TIZHGSaunrqIn\nWmGcS1LgsGB8t442RbAJrxkr4RiiOD7lkyH/XEt0A2rOnzNhb0EXMtgsUbWVoQtD\ncSD6FBZBAgMBAAECggEACclj3oFolZCFuwlM77oXre5t0T0SvQdSprBxnBIiz7Ti\niccWZKPzWbsuCPbwjVJtUEzHGuUQs+cbHAGT7FqL7diPvPRxpovsz0jo7XP3Z34e\nShVrfr8eYUfX2IqVNz3Lpt3RRpDz2aYm85w8vvx24Q4pTO9S4xE1NuL8t7iOg16K\nkY1WpcfvTiKMKsXGWEfkuqeDb/Tefq5jj7nNAE5OmqApbe0wLBWuW+1fuLMNZDxM\nwPJTxit0QhJsU+KXWFrby4uo/rfyIdrpkgfXMpz95qcSTPagitlR10W+6e3XDjLN\n0kZy/Eo36VSUBhoCaQVYPqAjt0PkqmfRbyKOERk9wQKBgQDTdkw0g2MN0uWashj6\n8epHh5O+9NUeiKdyNynbJpFNjFGbUhlbEVithCtHEFu5Cpqp4sLFYD2rRoK2rezb\nTpAf6OZnm+YZ6wvcmMxDh0+/v2BTfLyRkB6VwD4nZG4lmDvnjAn+bSm+vNbyxrWH\nhc4z1585m1YCX9pNzVzlX8siIwKBgQDTTkkm3FRuLezOZ9bbEE6El3avVWEmFMti\nm2QQD2zFt1TTI3wptxTXjSr2C5zDr2kgAbSjHagf9l50AROwd3GL4VoPD/FxeNj3\nL7X5UCOqp9cLO4zPN3xrPoJZF+48gsvx7vlaXr8TV46+QOW7/sIIJD2gpr8MgFT2\nkUvKBkTySwKBgC2a17iDlXtHvojsXALS5YnjrXODbesV4bb6Oqau3Kty1a6/uAQx\n64QQexzqZD22EcENzJ+wr9weatZnECwD94VKP1adArUYQgijU3pE1mguJ+IZhrmF\n8XKucTkhqbel61V2mDks5dHi/CCDxmah7uSzXf2YiKYecgBRh/VYAYEtAoGACywD\ncBuMFzs0XwFceb6V+Cqt6r0/4qyMyEzg8HxwSs/Tm0owAWCdqHvdPp8EjdATZc7R\nRyKFRhNXkRiReu4FwdiLU2qLYG18Qy1xmJnlGNvA4eYnHrmXSXBHogBC504fDE6P\nPnjt707czDBQNS1WAuovm/PU/As48sRh1m+Ya5sCgYEAp4IzC5ol9F2OgsRcEk/z\n7RdT7Nsl9lvlM4HQApdUlv94kUnfKdSFaosH2ebtHbcvVrbQe7DKQkiE+SnSSq2w\n6VUniHKSBefhx7wWOYJoqdH8liXjEJKLOXlFzFzwU7kmY8rArNrO3BEUbrHaDgpj\nw5k5m9gVE1//9XCYCaU510Y=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-bt533@serverless-sms-integration.iam.gserviceaccount.com",
+    "client_id": "116878594227938940712",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bt533%40serverless-sms-integration.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

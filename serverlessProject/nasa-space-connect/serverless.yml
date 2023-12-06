@@ -4,19 +4,16 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs18.x
- 
+
 functions:
   function1:
     handler: index.handler
     events:
-      - schedule: 
-          rate: rate(25 minutes)
+    - schedule: 
+      rate: rate(10 minutes) 
     environment:
-      API_KEY: "<Your API KEY here>"
-      Twilio_Account_SID: zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-      Twilio_Auth_Token: zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-      Twilio_Phone_Number: +12200000000
-      Personal_Nomber: +919000000000
-    
-
-
+    apikey: DEMO_KEY
+    Twilio_Account_SID: ACb5ed719abfce2140535e546d85802749
+    Twilio_Auth_Token: 55002b9c418f8c64ab66a913c2b99a95
+    Twilio_phone_Number: +12294045728
+    Personal_nomber: +919708132091
